@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    width: 650px;
+    height: 550px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+}
+.dots {
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    margin: 10px 5px;
+}
+.element {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;    
+}
+.dotElement {
+    display: flex;
+    cursor: pointer;
+}
+.one {
+    background: url('img/1aa.png') center/cover;
+}
+.two {
+    background: url('img/2.jpg') center/cover;
+}
+.three {
+    background: url('img/3.jpg') center/cover;    
+}
+.active {
+    background: red;
+}
